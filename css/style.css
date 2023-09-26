@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sedgwick+Ave+Display&display=swap');
+
+body{
+    background-color:rgba(240, 255, 255, 0.715);
+    color: darkblue;
+}
+
+h1, h2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    border: 3px solid#ddd;
+    border-radius: 95%;
+    text-align: center;
+}
+
+img:hover {
+    box-shadow: 0 0 3px 2px rgba(0, 140, 186, 0.5);
+  }
+
+.ingredients{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cooking-time{
+    margin: 0 auto;
+    background-color:cadetblue;
+    padding: 10px;
+}
+
+.ingredients-table{
+    padding: 15px;
+    border: 1px solid gray;
+    margin: 0 auto;  
+}
+
+.instructions{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.instructions ol{
+
+    margin: 0 auto;
+    width: 75%;
+    text-align:left;
+}
+
+
+footer{
+    text-align: center;
+}
